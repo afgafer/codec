@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'payment' => [
+        'url' => env('URL_PAYMENT', 'https://private-37766-coba72.apiary-mock.com'),
+        'timeout' => 10,
+    ],
+
 ];

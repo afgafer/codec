@@ -8,5 +8,6 @@ class Deposit extends Model
 {
     protected $table = "deposits";
     protected $primaryKey = "order_id";
+    protected $keyType      = 'string';
     public $timestamps = false;
 }
